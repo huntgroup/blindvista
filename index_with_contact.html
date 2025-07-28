@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlindVista – Accessible Travel for Everyone</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      text-align: center; 
+      background: #f4f4f4; 
+      padding: 50px; 
+    }
+    h1 { font-size: 2.5em; color: #333; }
+    p { font-size: 1.2em; max-width: 600px; margin: 20px auto; color: #555; }
+    .box { background: #fff; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .highlight { color: #1a73e8; font-weight: bold; }
+    form { max-width: 400px; margin: 20px auto; text-align: left; }
+    input, textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #1a73e8; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #1558b0; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🌍 BlindVista</h1>
+    <h2>Accessible Travel for Everyone</h2>
+    <p>
+      Our mission is simple – to make <span class="highlight">travel inclusive and barrier-free</span> for people with visual and other disabilities.  
+      We believe that exploring the world should be possible for everyone, with confidence, independence, and dignity.
+    </p>
+    <p>
+      BlindVista is building a platform to connect travellers with accessible accommodation, transport, and experiences.  
+      <strong>Coming Soon – Join us on our journey to make travel truly inclusive.</strong>
+    </p>
+
+    <h3>📧 Contact Us</h3>
+    <form action="mailto:admin@blindvista.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</html>
