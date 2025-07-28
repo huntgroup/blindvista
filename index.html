@@ -1,38 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=\"en\">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BlindVista – Accessible Travel for Everyone</title>
-  <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      text-align: center; 
-      background: #f4f4f4; 
-      padding: 50px; 
-    }
-    h1 { font-size: 2.5em; color: #333; }
-    p { font-size: 1.2em; max-width: 600px; margin: 20px auto; color: #555; }
-    .box { background: #fff; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-    .highlight { color: #1a73e8; font-weight: bold; }
-    iframe { margin-top: 20px; }
-  </style>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>BlindVista - Accessible Travel Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004466;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00334e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            background: url('accessible-travel.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 60px 20px;
+            color: #fff;
+            text-shadow: 1px 1px 2px #000;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: #004466;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn-primary:hover {
+            background-color: #00334e;
+        }
+        footer {
+            background-color: #002233;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-link {
+            color: #aad4ff;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-  <div class="box">
-    <h1>🌍 BlindVista</h1>
-    <h2>Accessible Travel for Everyone</h2>
-    <p>
-      Our mission is simple – to make <span class="highlight">travel inclusive and barrier-free</span> for people with visual and other disabilities.  
-      We believe that exploring the world should be possible for everyone, with confidence, independence, and dignity.
-    </p>
-    <p>
-      BlindVista is building a platform to connect travellers with accessible accommodation, transport, and experiences.  
-      <strong>Coming Soon – Join us on our journey to make travel truly inclusive.</strong>
-    </p>
+    <header>
+        <h1>BlindVista</h1>
+        <p>Empowering Accessible Travel Experiences for All</p>
+    </header>
 
-    <h3>📧 Contact Us</h3>
-    <iframe aria-label='Admin Email' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.eu/adminblind1/form/AdminEmail/formperma/OoqxFQu-LG2m5KneRfrTrUPCIiul62lPG9f7y3rcBnk'></iframe>
-  </div>
+    <nav>
+        <a href=\"index.html\">Home</a>
+        <a href=\"about.html\">About</a>
+        <a href=\"services.html\">Services</a>
+        <a href=\"accessibility.html\">Accessibility</a>
+        <a href=\"contact.html\">Contact</a>
+    </nav>
+
+    <section class=\"hero\">
+        <h2>Your Journey, Without Limits</h2>
+        <p>BlindVista connects travelers with disabilities to fully accessible travel options around the globe.</p>
+        <button class=\"btn-primary\">Explore Accessible Travel</button>
+    </section>
+
+    <section>
+        <h2>About BlindVista</h2>
+        <p>At BlindVista, our mission is to simplify travel planning for individuals with disabilities, ensuring inclusivity, comfort, and independence. We aim to integrate global travel platforms to enable seamless access to specialized travel solutions, from flights to accommodations and experiences.</p>
+
+        <img src=\"accessible-destination.jpg\" alt=\"Accessible travel destination\">
+
+        <h3>Why Choose BlindVista?</h3>
+        <ul>
+            <li><strong>Accessibility First:</strong> Carefully vetted travel options tailored for accessibility.</li>
+            <li><strong>Global Coverage:</strong> Worldwide travel destinations with comprehensive accessibility data.</li>
+            <li><strong>Empowered Choices:</strong> Tools and support to make independent, informed travel decisions.</li>
+        </ul>
+
+        <img src=\"empowered-travelers.jpg\" alt=\"Empowered travelers with disabilities\">
+
+        <h3>Our Vision</h3>
+        <p>BlindVista is dedicated to making travel accessible and enjoyable for everyone, promoting independence and confidence for travelers with disabilities.</p>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>For inquiries, please contact: <a href=\"mailto:admin@blindvista.com\" class=\"contact-link\">admin@blindvista.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 BlindVista. All Rights Reserved.
+    </footer>
 </body>
 </html>
