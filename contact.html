@@ -1,107 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us - BlindVista</title>
-  <link rel="stylesheet" href="styles.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f8f9fa;
-      color: #333;
-    }
-    header {
-      background: #004080;
-      padding: 15px 0;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav ul li a.active {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    main h1 {
-      text-align: center;
-      color: #004080;
-    }
-    iframe {
-      width: 100%;
-      height: 500px;
-      border: none;
-      margin-top: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #004080;
-      color: white;
-      margin-top: 40px;
-    }
-    section.info {
-      margin-top: 30px;
-      text-align: center;
-    }
-    section.info p {
-      margin: 5px 0;
-    }
+    body {font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; line-height: 1.6;}
+    header {background: #005bbb; color: #fff; padding: 10px 20px;}
+    nav a {color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold;}
+    nav a:hover {text-decoration: underline;}
+    .container {width: 90%; max-width: 900px; margin: auto; padding: 20px;}
+    h1, h2, h3 {color: #005bbb;}
+    .card {border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;}
+    iframe {width: 100%; height: 500px; border: none; border-radius: 6px;}
+    footer {background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 40px;}
   </style>
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="accessibility.html">Accessibility</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
+    <nav aria-label="Main Navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="accessibility.html">Accessibility</a>
+      <a href="contact.html">Contact</a>
+      <a href="insurance.html">Specialist Insurance</a>
     </nav>
   </header>
 
-  <main>
+  <div class="container">
     <h1>Contact Us</h1>
-    <p style="text-align:center;">
-      Please fill in the form below, and our team will get back to you as soon as possible.
-    </p>
+    <p>If you have questions, feedback, or need assistance, please fill out the form below.</p>
 
-    <iframe 
-      aria-label="Admin Email" 
-      src="https://forms.zohopublic.eu/adminblind1/form/AdminEmail/formperma/OoqxFQu-LG2m5KneRfrTrUPCIiul62lPG9f7y3rcBnk">
-    </iframe>
+    <div class="card">
+      <iframe 
+        aria-label="Admin Email"
+        src="https://forms.zohopublic.eu/adminblind1/form/AdminEmail/formperma/OoqxFQu-LG2m5KneRfrTrUPCIiul62lPG9f7y3rcBnk">
+      </iframe>
+    </div>
 
-    <section class="info">
-      <h2>Other Ways to Reach Us</h2>
-      <p>Email: <a href="mailto:admin@blindvista.com">admin@blindvista.com</a></p>
-      <p>Follow us on social media for updates and news.</p>
-    </section>
-  </main>
+    <h2>Other Ways to Reach Us</h2>
+    <p>Email: <a href="mailto:admin@blindvista.com">admin@blindvista.com</a></p>
+    <p>Follow us on social media for updates and news.</p>
+  </div>
 
   <footer>
-    <p>&copy; 2025 BlindVista. All rights reserved.</p>
+    <p>© 2025 BlindVista. All rights reserved.</p>
   </footer>
 </body>
 </html>
